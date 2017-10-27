@@ -10,3 +10,23 @@ function logShout(message){
 function logWhisper(message){
   console.log(whisper(message));
 }
+function sayHiToGrandma(message){
+/*if(message === 'hello'){
+  return "I can't hear you!";
+}
+else if (true) {
+  return 
+}*/
+  switch (message) {
+    case 'hello': return "I can't hear you!";
+    case 'HELLO': return "YES INDEED!";
+    case 'I love you, Grandma.': return "I love you, too.";
+      
+      break;
+    default:
+      
+  }
+}
+
+var mess = sayHiToGrandma('hello');
+console.log(mess);;
